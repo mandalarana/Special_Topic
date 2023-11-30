@@ -1,0 +1,20 @@
+package sample;
+
+public class InchesToFeet {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		int inches = 86;
+        int inches_per_foot = 12;
+        
+        int feet = inches / inches_per_foot ;
+        int remaining_Inches = inches % inches_per_foot ;
+
+        System.out.println( inches + " inches is equal to " + feet + " feet and " + remaining_Inches + "inches");
+	}
+}
+        
+		 
+		
+

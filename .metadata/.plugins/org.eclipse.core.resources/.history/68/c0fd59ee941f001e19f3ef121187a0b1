@@ -1,0 +1,28 @@
+package sample;
+
+import java.util.Scanner;
+
+public class AverageOfquizzes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[ ]scores = new int [10];
+		int score =0;
+		int count =0;
+		int total =0;
+		int quit =999;
+		int max =10;
+		Scanner input =new Scanner(System.in);
+		System.out.println("Enter quize score or"+ quit + " to quite >>");
+		score = input.nextInt();
+		while(score != quit)
+		{
+			scores[count] = score;
+			total = total+ scores[count];
+		}
+		
+		
+
+	}
+
+}

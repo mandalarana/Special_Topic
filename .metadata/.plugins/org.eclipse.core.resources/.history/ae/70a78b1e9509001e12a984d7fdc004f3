@@ -1,0 +1,13 @@
+package common;
+
+public class week4_student_app {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student stu1 = new Student();
+		stu1.getLname();
+		System.out.println(stu1.getgrade());
+	}
+
+}

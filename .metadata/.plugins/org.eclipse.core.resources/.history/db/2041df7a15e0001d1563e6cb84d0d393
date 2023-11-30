@@ -1,0 +1,15 @@
+package sample;
+
+public class Method {
+
+	
+	 public void getData() {
+		 
+		 System.out.println("method");
+	 }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

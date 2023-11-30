@@ -1,0 +1,18 @@
+package sample;
+
+public class Method {
+
+	
+	 public void getData() {
+		 
+		 //Void doesnt return any thing
+		 //if return type is int change void to int oer else change to string
+		 
+		 System.out.println("method");
+	 }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

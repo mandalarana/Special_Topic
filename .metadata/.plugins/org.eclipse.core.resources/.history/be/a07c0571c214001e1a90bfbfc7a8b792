@@ -1,0 +1,35 @@
+package sample;
+
+
+
+	import java.util.Random;
+
+	public class MathTest {
+	    public static void main(String[] args) {
+	        double squareRoot = Math.sqrt(37);
+	        System.out.println("Square root of 37: " + squareRoot);
+	        
+	        double sine = Math.sin(300);
+	        double cosine = Math.cos(300);
+	        System.out.println("Sine of 300: " + sine);
+	        System.out.println("Cosine of 300: " + cosine);
+	        
+	        double floor = Math.floor(22.8);
+	        double ceiling = Math.ceil(22.8);
+	        double round = Math.round(22.8);
+	        System.out.println("Floor of 22.8: " + floor);
+	        System.out.println("Ceiling of 22.8: " + ceiling);
+	        System.out.println("Round of 22.8: " + round);
+	        
+	        char character = 'D';
+	        int number = 71;
+	        char larger = (char) Math.max(character, number);
+	        char smaller = (char) Math.min(character, number);
+	        System.out.println("Larger of 'D' and 71: " + larger);
+	        System.out.println("Smaller of 'D' and 71: " + smaller);
+	        
+	        Random random = new Random();
+	        int randomNum = random.nextInt(21);
+	        System.out.println("Random number between 0 and 20: " + randomNum);
+	    }
+	}

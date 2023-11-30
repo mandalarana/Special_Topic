@@ -1,0 +1,49 @@
+package sample;
+
+public class TestBirdSighting {
+
+	public class BirdSighting {
+	    private String species;
+	    private int numberSeen;
+	    private int dayOfYear;
+	    
+	    public BirdSighting() {
+	        species = "robin";
+	        numberSeen = 1;
+	        dayOfYear = 1;
+	    }
+	    
+	    public BirdSighting(String species, int numberSeen, int dayOfYear) {
+	        this.species = species;
+	        this.numberSeen = numberSeen;
+	        this.dayOfYear = dayOfYear;
+	    }
+	    
+	    public String getSpecies() {
+	        return species;
+	    }
+	    
+	    public int getNumberSeen() {
+	        return numberSeen;
+	    }
+	    
+	    public int getDayOfYear() {
+	        return dayOfYear;
+	    }
+	}
+
+	//public class TestBirdSighting {
+	    public static void main(String[] args) {
+	        BirdSighting sighting1 = new BirdSighting();
+	        System.out.println("Species: " + sighting1.getSpecies());
+	        System.out.println("Number seen: " + sighting1.getNumberSeen());
+	        System.out.println("Day of year: " + sighting1.getDayOfYear());
+	        
+	        System.out.println(); // Empty line for readability
+	        
+	        BirdSighting sighting2 = new BirdSighting("sparrow", 3, 120);
+	        System.out.println("Species: " + sighting2.getSpecies());
+	        System.out.println("Number seen: " + sighting2.getNumberSeen());
+	        System.out.println("Day of year: " + sighting2.getDayOfYear());
+	    }
+	}

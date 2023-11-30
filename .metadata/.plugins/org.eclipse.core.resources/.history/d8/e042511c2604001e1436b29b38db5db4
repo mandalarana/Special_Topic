@@ -1,0 +1,25 @@
+package sample;
+
+import java.util.Scanner;
+
+public class DogBoarding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double price_per_pound = 0.50;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the dog's weight in pounds: ");
+        double weight = scanner.nextDouble();
+
+        System.out.print("Enter the number of days to be boarded: ");
+        int numDays = scanner.nextInt();
+
+        double total_Price = weight * price_per_pound * numDays;
+
+        System.out.printf("The total price for boarding is $ ", total_Price);
+
+	}
+
+}

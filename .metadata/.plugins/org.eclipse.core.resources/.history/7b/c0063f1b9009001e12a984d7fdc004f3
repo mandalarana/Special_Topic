@@ -1,0 +1,52 @@
+package common;
+
+public class Student {
+	
+	private int uid;
+	private String Fname;
+	private String Lname;
+	private String grade;
+	private float tution;
+
+
+public int getuid()
+{
+	return uid;
+}
+public String getFname()
+{
+	return Fname;
+}
+public String getLname()
+{
+	return Lname;
+}
+public float gettution()
+{
+	return tution;
+}
+public String getgrade()
+{
+	return grade;
+}
+ public void setuid(int studentid)
+ {
+	 uid = studentid;
+ }
+ public void setFname(String Fname)
+ {
+	 Fname = Fname;
+ }
+ public void setLname(String Lname)
+ {
+	 Lname = Lname;
+ }
+ public void settution(float fee)
+ {
+	 tution = fee;
+ }
+ public void grade(String grade)
+ {
+	 grade=grade;
+ }
+}

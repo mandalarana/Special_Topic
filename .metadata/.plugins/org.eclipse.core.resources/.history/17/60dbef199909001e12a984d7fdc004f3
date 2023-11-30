@@ -1,0 +1,47 @@
+package common;
+
+import java.util.Scanner;
+
+public class week4_student_app {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		int uid;
+		String F_name;
+		String L_name;
+		float tution;
+		String grade;
+		//stu1.getLname();
+		
+		Student stu1 = new Student();
+		Student stu2 = new Student();
+		
+		Scanner kb =new Scanner(System.in);
+		System.out.println("enter id");
+		//uid =kb.nextInt();
+		stu1.setuid(kb.nextInt());
+		System.out.println("The UID you entered is "+ stu1.getuid());
+		
+		System.out.println("enter first name");
+		stu2.setuid(kb.nextInt());
+		System.out.println("The UID you entered is " + stu2.getuid());
+		
+		System.out.println("enter Last name");
+		stu2.setuid(kb.nextInt());
+		System.out.println("The UID you entered is " + stu2.getuid());
+		
+		System.out.println("enter tution fee");
+		stu2.setuid(kb.nextInt());
+		System.out.println("The UID you entered is " + stu2.getuid());
+		
+		System.out.println("enter grade");
+		stu1.setGrade(kb.nextLine());
+		System.out.println("The UID you entered is " + stu2.getuid());
+		
+		
+	}
+
+}

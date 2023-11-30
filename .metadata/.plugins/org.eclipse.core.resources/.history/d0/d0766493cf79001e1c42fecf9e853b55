@@ -1,0 +1,12 @@
+package SE;
+
+public class If_condition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] num = {1,2,4,5,6};
+
+		System.out.println(num[0]);
+	}
+
+}

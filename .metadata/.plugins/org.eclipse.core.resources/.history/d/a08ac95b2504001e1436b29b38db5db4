@@ -1,0 +1,27 @@
+package sample;
+
+import java.util.Scanner;
+
+public class Eggs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		  double dozen_price = 3.25;
+	         double indivizual_price = 0.45;
+
+	        Scanner scanner = new Scanner(System.in);
+
+	        System.out.print("Enter the number of eggs: ");
+	        int eggs_Count = scanner.nextInt();
+
+	        int dozen = eggs_Count / 12;
+	        int loose_Eggs = eggs_Count % 12;
+
+	        double totalCost = (dozen * DOZEN_PRICE) + (loose_Eggs * INDIVIDUAL_PRICE);
+
+	        System.out.printf("You ordered %d eggs. That's %d dozen at $%.2f per dozen and %d loose eggs at $%.1f cents each for a total of $%.2f.",
+	                eggs_Count, dozen, DOZEN_PRICE, loose_Eggs, INDIVIDUAL_PRICE, totalCost);
+	}
+
+}

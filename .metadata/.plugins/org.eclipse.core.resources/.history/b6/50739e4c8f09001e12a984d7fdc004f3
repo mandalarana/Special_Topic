@@ -1,0 +1,33 @@
+package common;
+
+public class Student {
+	
+	private int uid;
+	private String Fname;
+	private String Lname;
+	private String grade;
+	private float tution;
+
+
+public int getuid()
+{
+	return uid;
+}
+public String getFname()
+{
+	return Fname;
+}
+public String getLname()
+{
+	return Lname;
+}
+public float gettution()
+{
+	return tution;
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package sample;
+
+public class BirdSighting {
+
+	
+	    private String species;
+	    private int numberSeen;
+	    private int dayOfYear;
+	    
+	    public BirdSighting() {
+	        species = "robin";
+	        numberSeen = 1;
+	        dayOfYear = 1;
+	    }
+	    
+	    public BirdSighting(String species, int numberSeen, int dayOfYear) {
+	        this.species = species;
+	        this.numberSeen = numberSeen;
+	        this.dayOfYear = dayOfYear;
+	    }
+	    
+	    public String getSpecies() {
+	        return species;
+	    }
+	    
+	    public int getNumberSeen() {
+	        return numberSeen;
+	    }
+	    
+	    public int getDayOfYear() {
+	        return dayOfYear;
+	    }
+	}

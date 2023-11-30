@@ -1,0 +1,43 @@
+package sample;
+
+public class Billing {
+
+	    
+	    public double computeBill(double bookPrice) {
+	        double totalDue =  (bookPrice + (bookPrice * 0.08)); // Add 8% tax
+	        return totalDue;
+	    }
+	    
+	    public double computeBill(double bookPrice, int quantity) {
+	        double totalPrice = bookPrice * quantity;
+	        double totalDue = totalPrice + (totalPrice * 0.08); // Add 8% tax
+	        return totalDue;
+	    }
+	    
+	    public double computeBill(double bookPrice, int quantity, double couponValue) {
+	        double totalPrice = bookPrice * quantity;
+	        double discountedPrice = totalPrice - couponValue;
+	        double totalDue = discountedPrice + (discountedPrice * 0.08); // Add 8% tax
+	        return totalDue;
+	    }
+	    
+	    public static void main(String[] args) {
+	        Billing billing = new Billing();
+	        
+	        // Testing the first method
+	        double totalDue1 = billing.computeBill(29);
+	        System.out.println("Total due: $" + totalDue1);
+	        
+	        System.out.println(); // Empty line for readability
+	        
+	        // Testing the second method
+	        double totalDue2 = billing.computeBill(19.55, 3);
+	        System.out.println("Total due: $" + totalDue2);
+	        
+	        System.out.println(); // Empty line for readability
+	        
+	        // Testing the third method
+	        double totalDue3 = billing.computeBill(24, 5, 10.00);
+	        System.out.println("Total due: $" + totalDue3);
+	    }
+	}

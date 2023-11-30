@@ -1,0 +1,29 @@
+package sample;
+
+public class MathTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 double squareRoot = Math.sqrt(37);
+	        double sine = Math.sin(300);
+	        double cosine = Math.cos(300);
+	        double floor = Math.floor(22.8);
+	        double ceiling = Math.ceil(22.8);
+	        long round = Math.round(22.8);
+	        char charD = 'D';
+	        int a = 71;
+	        char largerChar = (char) Math.max(charD, a);
+	        char smallerChar = (char) Math.min(charD, a);
+	        double randomNum = Math.random() * 20;
+	        
+	        System.out.println("Square root of 37: " + squareRoot);
+	        System.out.println("Sine of 300: " + sine);
+	        System.out.println("Cosine of 300: " + cosine);
+	        System.out.println("Floor of 22.8: " + floor);
+	        System.out.println("Ceiling of 22.8: " + ceiling);
+	        System.out.println("Round of 22.8: " + round);
+	        System.out.println("Larger of 'D' and 71: " + largerChar);
+	        System.out.println("Smaller of 'D' and 71: " + smallerChar);
+	        System.out.println("Random number between 0 and 20: " + randomNum);
+	    }
+	}

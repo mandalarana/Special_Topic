@@ -1,0 +1,22 @@
+package sample;
+
+public class Method {
+
+	int a=6;
+	 public void getData() {
+		 
+		 //Void doesnt return any thing
+		 //if return type is int change void to int oer else change to string
+		 
+		 System.out.println("method1");
+		 //return 2;
+		 //return "Hello";
+	 }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Method fn = new Method();
+		fn.getData();
+
+	}
+
+}
