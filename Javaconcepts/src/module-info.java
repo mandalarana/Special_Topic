@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author ranap
- *
- */
-module Javaconcepts {
-}

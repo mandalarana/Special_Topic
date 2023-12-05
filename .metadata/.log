@@ -3786,3 +3786,6 @@ java.lang.Exception: A resource exists with a different case: '/SpecialTopic/src
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-12-04 21:24:38.639
 !MESSAGE close() called when useCnt is already zero for Repository[C:\Users\ranap\git\Special_Topic\.git]
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-12-04 22:57:06.142
+!MESSAGE Can't connect to any repository: 
