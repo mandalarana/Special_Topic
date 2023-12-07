@@ -1686,3 +1686,68 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2023-12-06 18:58:58,572 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\Synchronization\src\main\resources
 2023-12-06 18:58:58,573 [Worker-165: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-12-06 18:58:58,573 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\Synchronization\src\test\resources
+2023-12-06 19:10:12,321 [Worker-168: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WindowsandFrames:WindowsandFrames:0.0.1-SNAPSHOT @ C:\Users\ranap\eclipse-workspace\WindowsandFrames\pom.xml.
+2023-12-06 19:10:12,442 [Worker-168: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WindowsandFrames/src
+2023-12-06 19:10:12,444 [Worker-168: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /WindowsandFrames/src/test/java because it overlaps with /WindowsandFrames/src
+2023-12-06 19:10:12,474 [Worker-168: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-12-06 19:10:12,486 [Worker-168: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WindowsandFrames:WindowsandFrames:0.0.1-SNAPSHOT @ C:\Users\ranap\eclipse-workspace\WindowsandFrames\pom.xml.
+2023-12-06 19:10:12,528 [Worker-168: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WindowsandFrames/src
+2023-12-06 19:10:12,529 [Worker-168: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /WindowsandFrames/src/test/java because it overlaps with /WindowsandFrames/src
+2023-12-06 19:10:12,544 [Worker-168: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-12-06 19:10:13,226 [Worker-169: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:10:13,226 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:10:13,227 [Worker-169: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:10:13,227 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:10:29,014 [Worker-166: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WindowsandFrames:WindowsandFrames:0.0.1-SNAPSHOT @ C:\Users\ranap\eclipse-workspace\WindowsandFrames\pom.xml.
+2023-12-06 19:10:29,103 [Worker-166: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:10:29,103 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:10:29,104 [Worker-166: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:10:29,106 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:12:04,480 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:12:04,481 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:12:04,481 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:12:04,481 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:13:53,668 [Worker-171: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:13:53,669 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:13:53,669 [Worker-171: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:13:53,670 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:14:06,155 [Worker-169: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:06,156 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:14:06,158 [Worker-169: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:06,158 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:14:12,213 [Worker-168: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:12,214 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:14:12,214 [Worker-168: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:12,215 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:14:14,309 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:14,309 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:14:14,311 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:14,312 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:14:18,519 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:18,520 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:14:18,521 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:18,521 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:14:24,533 [Worker-171: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:24,533 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:14:24,534 [Worker-171: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:24,535 [Worker-171: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:14:30,766 [Worker-172: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:30,767 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:14:30,769 [Worker-172: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:30,769 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:14:34,863 [Worker-169: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:34,863 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:14:34,864 [Worker-169: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:34,864 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:14:41,421 [Worker-168: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:41,422 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:14:41,423 [Worker-168: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:41,423 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:14:51,963 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:51,963 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:14:51,964 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:14:51,964 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
+2023-12-06 19:21:27,800 [Worker-174: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:21:27,800 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\main\resources
+2023-12-06 19:21:27,801 [Worker-174: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-12-06 19:21:27,802 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ranap\eclipse-workspace\WindowsandFrames\src\test\resources
